@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="prescriptions.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="http://www.petras.slekys.com/images/projects/vetbee.png"
+        alt=""
+      />
+      <nav>
+        <a href="index.html">Pets</a>
+        <a href="Medication">Medications</a>
+      </nav>
+    </header>
+    <main>
+      <div class="menuline">
+        <h1 id="addh1">Add Prescription</h1>
+        <button id="backlogs">Back to Logs</button>
+      </div>
+      <section id="addpet">
+        <form id="addform">
+          <input type="text" placeholder="Medication ID" id="medid" />
+          <input type="text" placeholder="Pet ID" id="petid" />
+          <input type="text" placeholder="comment" id="comment" />
+          <button type="submit">Add new prescription</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

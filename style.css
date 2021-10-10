@@ -1,0 +1,202 @@
+body {
+  min-height: 150vh;
+}
+
+* {
+  background-color: rgb(236, 236, 236);
+  font-family: "Roboto", sans-serif;
+}
+/*Styling header*/
+
+header {
+  padding-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header img {
+  width: 15rem;
+}
+
+header nav a {
+  text-decoration: none;
+  margin: 1rem;
+  font-size: x-large;
+  color: orange;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/*Styling menu */
+
+.menuline {
+  padding-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.menuline h1 {
+  color: rgb(54, 52, 52);
+}
+
+.menuline a {
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  width: 10rem;
+  color: white;
+  background-color: orange;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+.menuline a:active {
+  animation: gradient 200ms;
+  background: rgb(238, 238, 238);
+  color: black;
+  box-shadow: none;
+  border: 1px solid orange;
+}
+/*Section Styling*/
+
+#logs {
+  padding-top: 5rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pets {
+  padding-top: 5rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Styling Add pet section */
+#addpet {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#addpet input {
+  padding: 0.5rem;
+  width: 80%;
+  margin: 2rem;
+  background-color: white;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.btndiv button {
+  width: 30%;
+  margin-left: 10rem;
+  padding: 0.7rem;
+  outline: none;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btndiv button:active {
+  animation: gradient 200ms;
+  background: rgb(238, 238, 238);
+  color: black;
+  box-shadow: none;
+  border: 1px solid orange;
+}
+#addpet input:hover {
+  border: 1px solid orange;
+}
+#addpet input:focus {
+  border: 1px solid orange;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btns button {
+  outline: none;
+  border: 1px solid orange;
+  border-radius: 0.2rem;
+  color: orange;
+  padding: 0.5rem;
+  width: 7rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.btns button:active {
+  color: white;
+  background-color: orange;
+}
+.btns button:hover {
+  color: white;
+  background-color: orange;
+}
+
+#logs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.section {
+  padding: 3rem;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.btnsADD button {
+  outline: none;
+  border: 1px solid orange;
+  border-radius: 0.2rem;
+  color: orange;
+  padding: 0.5rem;
+  width: 15rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.btnsADD button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.btnsADD {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#addprsc {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
